@@ -20,7 +20,7 @@ const MovieDetails = () => {
       // console.log(res.data);
       setMovie(res.data);
     })
-  }, []);
+  }, [movieID]);
   // Make an axios call to get movie details using the movieID param
   // Set Details to State
 
